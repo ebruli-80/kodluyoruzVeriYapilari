@@ -19,3 +19,17 @@ ilk eleman dizinin diğer elemanlarıyla karşılaştırılarak en küçük say�
 sırada 5 var dizinin geri kalanıyla karşılaştırılır kendinden küçük 4'ü bulur daha küçük eleman olmadığı için yer değiştirir.
 [2,3,4,8,7,9,5,15,6] 3.sıralama
 [2,3,4,5,7,9,8,15,6] 4. sıralama
+
+
+
+# Proje 2
+### [16,21,11,8,12,22] -> Merge Sort dizinin sort türüne göre aşamalarını yazınız.
+Üçlü gruplar şeklinde iki parçaya bölünür.
+[16,21,11|8,12,22] şeklinde
+bu gruplarda ikili şekilde ayrılır.
+[16,21] [11] [8,12] [22] şeklini alır.
+iki elemana kadar düştüğü için artık kendi içlerinde sıralanır ve birleştirilir.
+[11,16,21] [8,12,22] şeklinde sıralandı ve birleştirildi.
+[8,11,12,16,21,22] şeklinde sıralanmış oldu.
+### Big-O gösterimini yazınız.
+O(n log n) diziyi parçalayıp tekrar birleştirildiği için bütün durumları n log n dir. dolayısıyla big o su da n log n oldu.
