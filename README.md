@@ -33,3 +33,12 @@ iki elemana kadar düştüğü için artık kendi içlerinde sıralanır ve birl
 [8,11,12,16,21,22] şeklinde sıralanmış oldu.
 ### Big-O gösterimini yazınız.
 O(n log n) diziyi parçalayıp tekrar birleştirildiği için bütün durumları n log n dir. dolayısıyla big o su da n log n oldu.
+
+
+## Proje 3
+### [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+ 7 root düğümü. 5 ekleniyor ağaca 7 den küçük olduğu için sola ekleniyor.
+ sonra 1 ekleniyor 7 den ve 5 ten küçük olduğu için en sola yerleşiyor.
+ 8 ekleniyor 7 den büyük olduğu için sağına yerleşir. 3 eklenir 1 in sağına yerleşir 6 5 in sağına yerleşir.
+ 0 1 in soluna yerleşir. 9 eklenir 8 in sağına yerleşir. 4 eklenir 3 ün sağına yerleşir.
+ 2 eklenir 3 ün soluna yerleşir.
